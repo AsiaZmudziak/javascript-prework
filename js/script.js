@@ -27,28 +27,28 @@ if (playerInput == '1') {
 printMessage('Twój ruch to: ' + playerMove);
 
 
-if (argComputerMove == 'kamień' && argPlayerMove == 'kamień') {
+if (computerMove == 'kamień' && playerMove == 'kamień') {
     printMessage('REMIS!');
-} else if (argComputerMove == 'kamień' && argPlayerMove == 'nożyce') {
+} else if (computerMove == 'kamień' && playerMove == 'nożyce') {
     printMessage('TY przegrywasz :(')
-} else if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
+} else if (computerMove == 'kamień' && playerMove == 'papier') {
     printMessage('TY wygrywasz :)');
-} else if (argComputerMove == 'papier' && argPlayerMove == "papier") {
+} else if (computerMove == 'papier' && playerMove == "papier") {
     printMessage('REMIS');
-} else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
+} else if (computerMove == 'papier' && playerMove == 'nożyce') {
     printMessage('TY wygrywasz :)');
-} else if (argComputerMove == 'papier' && argPlayerMove == 'kamień') {
+} else if (computerMove == 'papier' && playerMove == 'kamień') {
     printMessage('TY przegrywasz :(');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
+} else if (computerMove == 'nożyce' && playerMove == 'kamień') {
     printMessage('TY wygrywasz :)');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'papier') {
+} else if (computerMove == 'nożyce' && playerMove == 'papier') {
     printMessage('TY przegrywasz :(');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'nożyce') {
+} else if (computerMove == 'nożyce' && playerMove == 'nożyce') {
     printMessage('REMIS');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'nieznany ruch') {
+} else if (computerMove == 'nożyce' && playerMove == 'nieznany ruch') {
     printMessage('OSZUKUJESZ!!');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'nieznany ruch') {
+} else if (computerMove == 'nożyce' && playerMove == 'nieznany ruch') {
     printMessage('OSZUKUJESZ!!');
-} else if (argComputerMove == 'nożyce' && argPlayerMove == 'nieznany ruch') {
+} else if (computerMove == 'nożyce' && playerMove == 'nieznany ruch') {
     printMessage('OSZUKUJESZ!!');
 }
